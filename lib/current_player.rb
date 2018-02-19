@@ -5,5 +5,5 @@ def turn_count(board)
     space == "" || space == " " ? "" : counter += 1 
     
   end 
-  
+  return counter
 end
